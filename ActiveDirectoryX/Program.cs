@@ -17,6 +17,7 @@ namespace ActiveDirectoryX
         public static string ReadPassword()
         {
 
+
             string password = "";
             ConsoleKeyInfo info = Console.ReadKey(true);
             while (info.Key != ConsoleKey.Enter)
